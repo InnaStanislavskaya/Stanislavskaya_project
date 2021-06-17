@@ -6,6 +6,8 @@ const { isEmpty } = require('lodash');
 const { dbClient } = require('./yourNoSql');
 const { serveStatic } = require('./serveStatic');
 
+const PORT = process.env.PORT || 5000;
+
 const templateList = {
   userList: {
     content: null,
