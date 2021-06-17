@@ -6,7 +6,7 @@ const { isEmpty } = require('lodash');
 const { dbClient } = require('./yourNoSql');
 const { serveStatic } = require('./serveStatic');
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 9090;
 
 const templateList = {
   userList: {
@@ -86,7 +86,7 @@ const server = http.createServer(listener);
 function listenIfReady() {
   const allLoaded = Object.values(templateList).every((template) => template.content);
   if (allLoaded) {
-    server.listen(9090);
+    server.listen(PORT);
   }
 }
 
