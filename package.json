@@ -1,0 +1,25 @@
+{
+  "name": "Stanislavskaya_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnaStanislavskaya/Stanislavskaya_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnaStanislavskaya/Stanislavskaya_project/issues"
+  },
+  "homepage": "https://github.com/InnaStanislavskaya/Stanislavskaya_project#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mustache": "4.2.0"
+  }
+}
